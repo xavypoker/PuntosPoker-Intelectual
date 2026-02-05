@@ -256,3 +256,4 @@ Si tienes problemas:
 
 Tu sistema de poker está en línea. Comparte el enlace con tus amigos y disfruta. 🂡 🂱 🃁 🃑
 "# PuntosPoker-Intelectual" 
+"# PuntosPoker-Intelectual" 
