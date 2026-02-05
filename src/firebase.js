@@ -1,18 +1,22 @@
-import { initializeApp } from 'firebase/app';
-import { getDatabase } from 'firebase/database';
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-// IMPORTANTE: Reemplaza estos valores con tu configuración de Firebase
-// Ve a Firebase Console > Project Settings > Your apps > Firebase SDK snippet
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "TU_API_KEY_AQUI",
-  authDomain: "TU_PROJECT_ID.firebaseapp.com",
-  databaseURL: "https://TU_PROJECT_ID-default-rtdb.firebaseio.com",
-  projectId: "TU_PROJECT_ID",
-  storageBucket: "TU_PROJECT_ID.appspot.com",
-  messagingSenderId: "TU_MESSAGING_SENDER_ID",
-  appId: "TU_APP_ID"
+  apiKey: "AIzaSyDBMVItjsBOCIEaT2v_xzuKBim_tAdARbU",
+  authDomain: "poker-intelectual.firebaseapp.com",
+  databaseURL: "https://poker-intelectual-default-rtdb.firebaseio.com",
+  projectId: "poker-intelectual",
+  storageBucket: "poker-intelectual.firebasestorage.app",
+  messagingSenderId: "96573926927",
+  appId: "1:96573926927:web:ccf861f25305145cf2fd7a",
+  measurementId: "G-XJ52LR2ZGR"
 };
 
-// Inicializar Firebase
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const database = getDatabase(app);
+const analytics = getAnalytics(app);
